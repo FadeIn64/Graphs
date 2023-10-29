@@ -9,40 +9,31 @@ public class Node {
     float weight;
     Color color;
 
-    public Node(int number, String name, float weight, Color color) {
+    public Node(String name, float weight, Color color) {
+        this(0, name, weight, color);
+    }
+
+    public Node(String name, float weight) {
+        this(0, name, weight, Color.BLACK);
+    }
+
+    public Node(String name) {
+        this(0, name, 1, Color.BLACK);
+    }
+
+    Node(int number, String name, float weight, Color color) {
         this.number = number;
         this.name = name;
         this.weight = weight;
         this.color = color;
     }
 
-    public Node(int number) {
-        this(number, null, 1, Color.BLACK);
-    }
 
     public Node(Node node) {
         this(node.number, node.name, node.weight, node.color);
     }
 
-    public Node(int number, String name) {
-        this(number, name, 1, Color.BLACK);
-    }
 
-    void setNumber(int number) {
-        this.number = number;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setWeight(float weight) {
-        this.weight = weight;
-    }
-
-    public void setColor(Color color) {
-        this.color = color;
-    }
 
     public int getNumber() {
         return number;
