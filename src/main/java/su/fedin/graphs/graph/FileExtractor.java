@@ -1,4 +1,4 @@
-package com.example.graphs.graph;
+package su.fedin.graphs.graph;
 
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;

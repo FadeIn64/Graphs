@@ -1,4 +1,4 @@
-package com.example.graphs;
+package su.fedin.graphs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

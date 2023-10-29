@@ -1,6 +1,6 @@
-package com.example.graphs;
+package su.fedin.graphs;
 
-import com.example.graphs.graph.FileExtractor;
+import su.fedin.graphs.graph.FileExtractor;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;
 
